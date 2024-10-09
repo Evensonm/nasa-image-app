@@ -29,11 +29,13 @@
   flex-direction: column;
   max-height: 100vh;
   width: 100%;
+  margin: auto;
 }
 
 .bgImage {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 100vh;
   flex: 1;
   object-fit: cover;
 }
